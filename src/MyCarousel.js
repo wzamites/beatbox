@@ -3,16 +3,16 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import BackgroundPic from './images/backgrounds/matthijs-smit-bRG2C0FAQEY-unsplash.jpg'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import Container from 'react-bootstrap/Container'
 
 function MyCarousel() {
   return (
-  <Jumbotron className="masthead">
-  <h1>Hello, world!</h1>
+  <div className="masthead App-header">
+  <h1>Welcome to beatbox.</h1>
   <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
+    Glad to have you.
   </p>
-</Jumbotron>
+</div>
   );
 }
 
