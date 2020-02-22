@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64dace3e1eaa6407e439a33ec4a2d836",
+    "revision": "2fb949b5111aab6cdb96e43d714ba46a",
     "url": "/beatbox/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beatbox/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "4e6450059c7767716b46",
-    "url": "/beatbox/static/css/main.f353f54c.chunk.css"
+    "revision": "5e30bc71fe3c8fb1a020",
+    "url": "/beatbox/static/css/main.9a0c9289.chunk.css"
   },
   {
     "revision": "4607edd7481cda0fac4d",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/beatbox/static/js/2.bc653901.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e6450059c7767716b46",
+    "revision": "5e30bc71fe3c8fb1a020",
     "url": "/beatbox/static/js/main.de353376.chunk.js"
   },
   {
