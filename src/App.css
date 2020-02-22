@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #282c34;
+  color: white;
 }
 
 .App-link {
@@ -40,7 +40,7 @@
 .masthead {
   height: 10vh;
   min-height: 500px;
-  background-image: url('./images/backgrounds/matthijs-smit-bRG2C0FAQEY-unsplash.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/backgrounds/matthijs-smit-bRG2C0FAQEY-unsplash.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
