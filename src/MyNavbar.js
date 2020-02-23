@@ -27,11 +27,16 @@ function MyNavbar() {
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
           </NavDropdown>
+          <Form inline>
+            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+            <Button variant="outline-secondary">Search</Button>
+          </Form>
         </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-secondary">Search</Button>
-        </Form>
+
+
+        <i class="fas fa-shopping-cart">Hello</i>
+
+
         </Navbar.Collapse>
 
 </Container>

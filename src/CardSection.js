@@ -2,6 +2,12 @@ import React from 'react';
 
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import Container from 'react-bootstrap/Container'
+
+
 
 import Image1 from './images/productimages/scm-corpsmaster-snare-colin-mcnutt.png'
 import Image2 from './images/productimages/smap-corpsmaster-signature-snare-john-mapes.png'
@@ -11,8 +17,10 @@ import Image5 from './images/productimages/sth3-corpsmaster-signature-snare-thom
 
 function CardSection() {
   return (
-    <div className="containerLayout">
+<div>
 
+
+    <div className="containerLayout">
   <Card className="cardContainer" style={{ width: '18rem' }}>
   <Card.Img variant="top" src={Image1} vspace="75" />
   <Card.Body>
@@ -89,6 +97,7 @@ function CardSection() {
   <Button variant="light">Add to Cart</Button></Card.Body>
 </Card>
 
+</div>
 </div>
   );
 }
