@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2fb949b5111aab6cdb96e43d714ba46a",
+    "revision": "e759fe4badeb30a4efd9d8ec7eeb41e8",
     "url": "/beatbox/index.html"
   },
   {
-    "revision": "4607edd7481cda0fac4d",
+    "revision": "9c1cc10729881d36d9f1",
     "url": "/beatbox/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "5e30bc71fe3c8fb1a020",
-    "url": "/beatbox/static/css/main.9a0c9289.chunk.css"
+    "revision": "f1e66a0e0f4d1f9d7740",
+    "url": "/beatbox/static/css/main.06704a27.chunk.css"
   },
   {
-    "revision": "4607edd7481cda0fac4d",
-    "url": "/beatbox/static/js/2.bc653901.chunk.js"
+    "revision": "9c1cc10729881d36d9f1",
+    "url": "/beatbox/static/js/2.c40ddeb1.chunk.js"
   },
   {
-    "revision": "a52d65c95a2d7ffcb9ff212c4d38dff4",
-    "url": "/beatbox/static/js/2.bc653901.chunk.js.LICENSE.txt"
+    "revision": "bfc08a62983de46a4daec9f8c3c657d8",
+    "url": "/beatbox/static/js/2.c40ddeb1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e30bc71fe3c8fb1a020",
-    "url": "/beatbox/static/js/main.de353376.chunk.js"
+    "revision": "f1e66a0e0f4d1f9d7740",
+    "url": "/beatbox/static/js/main.f90ef010.chunk.js"
   },
   {
     "revision": "b509493271a1cae510fb",
