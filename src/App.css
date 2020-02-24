@@ -47,6 +47,16 @@
   margin-bottom: 1rem;
 }
 
+.containerLayout-sm {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
 .cardContainer {
 width: 275px;
 min-width: 275px;

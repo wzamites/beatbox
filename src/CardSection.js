@@ -1,5 +1,5 @@
 import React from 'react';
-import MyPagination from './MyPagination'
+import MyNavbar from './MyNavbar'
 
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
@@ -7,9 +7,6 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Container from 'react-bootstrap/Container'
-import Pagination from 'react-bootstrap/Pagination'
-
-
 
 import Image1 from './images/productimages/scm-corpsmaster-snare-colin-mcnutt.png'
 import Image2 from './images/productimages/smap-corpsmaster-signature-snare-john-mapes.png'
@@ -20,7 +17,7 @@ import Image5 from './images/productimages/sth3-corpsmaster-signature-snare-thom
 function CardSection() {
   return (
 <div>
-
+<MyNavbar />
 
     <div className="containerLayout">
   <Card className="cardContainer" style={{ width: '18rem' }}>
@@ -99,9 +96,13 @@ function CardSection() {
   <Button variant="light">Add to Cart</Button></Card.Body>
 </Card>
 </div>
-<div className="containerLayout">
-<MyPagination />
+
+<div className="containerLayout-sm">
+<Button variant="outline-secondary" size="lg" block>
+  Load More
+</Button>
 </div>
+
 </div>
   );
 }
