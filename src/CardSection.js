@@ -1,4 +1,5 @@
 import React from 'react';
+import MyPagination from './MyPagination'
 
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
@@ -6,6 +7,7 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Container from 'react-bootstrap/Container'
+import Pagination from 'react-bootstrap/Pagination'
 
 
 
@@ -96,7 +98,9 @@ function CardSection() {
   <Button variant="dark">Subscribe</Button><span>  </span>
   <Button variant="light">Add to Cart</Button></Card.Body>
 </Card>
-
+</div>
+<div className="containerLayout">
+<MyPagination />
 </div>
 </div>
   );
