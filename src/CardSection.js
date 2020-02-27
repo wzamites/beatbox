@@ -1,5 +1,6 @@
 import React from 'react';
 import MyNavbar from './MyNavbar'
+import SortFilter from './SortFilter'
 
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
@@ -17,7 +18,9 @@ import Image5 from './images/productimages/sth3-corpsmaster-signature-snare-thom
 function CardSection() {
   return (
 <div>
-<MyNavbar />
+<div className="containerLayout">
+<SortFilter />
+</div>
 
     <div className="containerLayout">
   <Card className="cardContainer" style={{ width: '18rem' }}>
@@ -99,7 +102,7 @@ function CardSection() {
 
 <div className="containerLayout-sm">
 <Button variant="outline-secondary" size="lg" block>
-  Load More
+  Load More (23)
 </Button>
 </div>
 
